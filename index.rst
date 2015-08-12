@@ -74,6 +74,11 @@ identify the user.
   Mainly used by the connector to query users and store
   the connection between authentication source and user identity.
 
+
+:doc:`Authentication attributes study <auth/auth_study>`, and first proposal for
+authentication attributes.
+  
+
 Learning material
 -----------------
 
