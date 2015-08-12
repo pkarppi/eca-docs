@@ -7,8 +7,7 @@ Authentication Study
 Education Authetication Attributes Study
 ========================================
 
-
-To solve what attributes authentication customers need, a set of questions were sent to 14 potential stakeholders. 
+To solve what attributes authentication customers need, 14 potential stakeholder presenters were intervied by mail, phone, skype or personally. Stakeholders were from school world and intouch with Educloud alliance.
 
 Authentication is to identify users, and authentication data should contain only the info to identify person. For example license info is not included in authentication parameters, but with the unique id, license info could be asked from another service.
 
