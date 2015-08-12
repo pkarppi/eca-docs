@@ -5,6 +5,7 @@ Authentication
 .. toctree::
 
   interface
+  auth_study
 
 EduCloud Auth's central component is called Auth Proxy (IdP)
 that is the main gateway between Service Providers (SPs)

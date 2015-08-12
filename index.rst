@@ -73,10 +73,11 @@ identify the user.
   Common source of user data to all other services.
   Mainly used by the connector to query users and store
   the connection between authentication source and user identity.
-  
-:doc:`Data <auth/auth_study.rst>`
-  Authentication attributes study, and first proposal for authentication attributes.
 
+
+:doc:`Authentication attributes study <auth/auth_study>`, and first proposal for
+authentication attributes.
+  
 
 Learning material
 -----------------
