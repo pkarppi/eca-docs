@@ -75,7 +75,7 @@ identify the user.
   the connection between authentication source and user identity.
   
 :doc:`Data <auth/auth_study.rst>`
-  Authentication attributes study, and first proposal for attributes.
+  Authentication attributes study, and first proposal for authentication attributes.
 
 
 Learning material
