@@ -2,51 +2,47 @@
 Educloud Alliance Technical Documentation
 *****************************************
 
-Summary of
+Educloud Alliance is creating a standard which defines how different service providers
+can communicate and share information.
 
-* why
-* what
-* how
+The goals and principles of the standard are:
 
-Educloud Alliance is creating a standard architecture how different service providers
-can communicate and share information. The system consists of mainly interface
-descriptions, protocols and overall description how the highlevel system works.
-
-The standard is accompanied by reference implementation which shows in
-practice how the system is meant to be working. The reference implementation
-is not meant to be production system and it is not designed to such.
-
-
-Goals
-=====
-
-* Always think about the user first. User is the student, pupil, learner. Everything must be making their life easier.
-* Create documented and open interfaces to key infrastructure.
+* Always think about the user first. The standard must be making their life easier.
+* Create documented and open interfaces.
 * Use as much existing documentation, interfaces, and field tested technology as possible.
 * All and everything in :term:`ECA` must be open and free for everybody to use.
-* Create reference implementation of all documentation.
+* Create reference implementation of the standard.
 * Make it possible for every service to connect to all other services in the ecosystem
 * Create a standard which as many as possible is believing.
 
-And some questions:
+And some open questions:
 
 * What is the top level goal why :term:`ECA` is creating a standard?
 * What it means to create a standard?
 * What we try to standardize?
 * Who is the target audience for the standard?
 
-Architecture
-============
+<image of the standard>
 
-* What components the architecture has?
-* Which level they are documented?
 
-<Here is an image>
+Stories
+=======
 
-ECA is using a service oriented architecture where each service can be maintained
-separatedly. Each service does only one thing.
+The standard is modeled based on the first principle about the user coming first.
+A story from the actors point of view explains how the standard is affecting
+the life of the actor, what benefits there are, and how the standard is affecting
+the user interface and user experience.
 
-Services can be grouped to the following groups:
+
+Services
+========
+
+The standard is based on a service oriented architecture where functionality
+is split to services. The services defined in the standard are implementing
+the stories defined in the standard. The standard is accompanied by reference
+implementation which shows in practice how the standard is meant to be working.
+The reference implementation is not meant to be production system and it is
+not designed as such.
 
 User authentication, identification and profile data
 ----------------------------------------------------
@@ -74,11 +70,6 @@ identify the user.
   Mainly used by the connector to query users and store
   the connection between authentication source and user identity.
 
-
-:doc:`Authentication attributes study <auth/auth_study>`, and first proposal for
-authentication attributes.
-  
-
 Learning material
 -----------------
 
@@ -91,8 +82,16 @@ Learning material is produced by the :term:`CMS` and used in the :term:`LMS`.
 Interfaces
 ==========
 
+All communication between services must be happen thru interfaces which are
+defined in the standard. Interfaces should be based on existing technology
+which is already widely used. Interfaces should be easy to understand and
+implement by all parties.
+
 * What interfaces are needed for achieving the goals and the standard?
 * What level are the interfaces described?
+
+:doc:`Authentication attributes study <auth/auth_study>`, and first proposal for
+authentication attributes.
 
 <Here is an image>
 
@@ -108,6 +107,15 @@ Interfaces
 
 :doc:`CMS IF <bazaar/interface>`
   Between term:`Bazaar` and :term:`CMS`.
+
+
+Infrastructure
+==============
+
+The standard would not be complete without defining how the system as a whole
+is working and how the reference implementation is built. The production
+system can be different.
+
 
 Contributions
 =============

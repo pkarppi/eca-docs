@@ -3,5 +3,4 @@ syntax: glob
 
 html
 .git
-.gitignore
 
