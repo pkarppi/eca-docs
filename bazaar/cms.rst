@@ -104,7 +104,7 @@ PARAMS                                         DESCRIPTION
 ====================== =====================  ================================
 name                   required               Name (max. 255 chars)
 description            required               Description (max. 2048 chars)
-language               required,unique        Material language
+language               required               Material language
 publisher_resource_id  required,unique        Publisher unique material id (in your system)
 publisher_data                                Publisher additional data
 metadata                                      Metadata in array format. Max 32 items. You must first get available metadatas with *cms/metadata*. 
